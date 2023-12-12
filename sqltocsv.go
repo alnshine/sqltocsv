@@ -193,6 +193,6 @@ func New(rows *sql.Rows) *Converter {
 	return &Converter{
 		rows:         rows,
 		WriteHeaders: true,
-		Delimiter:    ',',
+		Delimiter:    ';',
 	}
 }
